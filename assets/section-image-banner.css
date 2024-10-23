@@ -401,7 +401,7 @@
 
 @media screen and (min-width: 750px) {
   .banner__box > * + .banner__text {
-    margin-top: 2rem;
+    margin-top: rem;
   }
 }
 
@@ -506,7 +506,7 @@
 }
 
 .banner__box > * + .banner__buttons {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 @media screen and (max-width: 749px) {
