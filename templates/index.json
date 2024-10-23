@@ -1,4 +1,12 @@
-
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -7,8 +15,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-              "heading": "12h TECH",
-              "heading2": "La cuenta regresiva para la innovacion",
+            "heading": "12h TECH",
+            "heading2": "La cuenta regresiva para la innovacion",
             "heading_size": "h1"
           }
         },
@@ -29,12 +37,11 @@
             "button_link_2": "shopify://collections/teclados",
             "button_style_secondary_2": true,
             "button_label_3": "Teclados",
-            "button_link_3": "shopify://collections/Teclados",
+            "button_link_3": "shopify://blogs/noticias",
             "button_style_secondary_3": true
           }
         }
       },
-      
       "block_order": [
         "heading",
         "text_GeCFcH",
