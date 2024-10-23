@@ -126,26 +126,47 @@
             >
               {{ block.settings.heading }}
             </h2>
+              <h2
+              class="banner__heading inline-richtext {{ "h2" }}"
+              {{ block.shopify_attributes }}
+            >
+              {{ block.settings.heading2}}
+            </h2>
+
+            
+          
+          
+            
           {%- when 'text' -%}
-            <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+            <div class="banner__text  rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               <p>{{ block.settings.text }}</p>
             </div>
           {%- when 'buttons' -%}
-            <div
-              class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
+            <div 
+              class="banner__buttons {% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
               {{ block.shopify_attributes }}
             >
               {%- if block.settings.button_label_1 != blank -%}
-                <a
+                <a 
+                
                   {% if block.settings.button_link_1 == blank %}
                     role="link" aria-disabled="true"
                   {% else %}
                     href="{{ block.settings.button_link_1 }}"
+                  
                   {% endif %}
-                  class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
+                  class="button-rotate1 button {% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
                 >
-                  {{- block.settings.button_label_1 | escape -}}
+                 <div class="icon-button-container ">
+                 <div class="button-text"> 
+                 {{- block.settings.button_label_1 | escape -}} 
+                 </div>
+                      <img class="mouse-icon" src="data:image/svg+xml;base64,
+                 PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjc4LjAwMDAwMHB0IiBoZWlnaHQ9IjM0MS4wMDAwMDBwdCIgdmlld0JveD0iMCAwIDI3OC4wMDAwMDAgMzQxLjAwMDAwMCIKIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiPgo8bWV0YWRhdGE+CkNyZWF0ZWQgYnkgcG90cmFjZSAxLjE2LCB3cml0dGVuIGJ5IFBldGVyIFNlbGluZ2VyIDIwMDEtMjAxOQo8L21ldGFkYXRhPgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNDEuMDAwMDAwKSBzY2FsZSgwLjEwMDAwMCwtMC4xMDAwMDApIgpmaWxsPSIjOTc0N0ZGIiBzdHJva2U9Im5vbmUiPgo8cGF0aCBkPSJNMTExMyAzMTAwIGMtMjg1IC03NSAtNTIzIC0yNjkgLTY1NCAtNTM0IC0yNyAtNTUgLTU4IC0xMzIgLTY5IC0xNzEKLTE5IC02NyAtNDggLTI4MSAtMzkgLTI4OSAyIC0zIDE5OSAtMiA0MzcgMSBsNDMyIDYgMCA0MjEgYzAgNDQ3IC02IDU4NiAtMjQKNTg1IC02IDAgLTQzIC05IC04MyAtMTl6Ii8+CjxwYXRoIGQ9Ik0xNTE4IDI2MTggYzIgLTI3NyA1IC01MDMgNiAtNTA0IDAgMCAxOTYgMSA0MzQgNCBsNDMyIDUgMCA1NiBjMCA3NQotMzEgMjIwIC02NSAzMDYgLTEyMiAzMDcgLTM3OCA1MzQgLTY5NSA2MTUgLTEzMiAzNCAtMTE4IDk2IC0xMTIgLTQ4MnoiLz4KPHBhdGggZD0iTTEwOTAgMTgwOSBjLTM0NCAtMyAtNjUwIC03IC02ODAgLTggbC01NiAtMSAzIC0xODcgYzkgLTU0NCA5IC01NTIKMzcgLTY1OCA5OCAtMzY1IDQwMSAtNjU0IDc2NiAtNzMwIDM2MCAtNzUgNzI5IDQwIDk2NSAyOTkgMTA5IDExOSAxNzIgMjIxCjIxOSAzNTQgNDkgMTM3IDU2IDIxNCA1NiA1OTMgbDAgMzQ5IC0zNDIgLTIgYy0xODkgLTEgLTYyNCAtNSAtOTY4IC05eiIvPgo8L2c+Cjwvc3ZnPgo=
+                " alt="icon-mouse" />
+                 </div>
                 </a>
+               
               {%- endif -%}
               {%- if block.settings.button_label_2 != blank -%}
                 <a
@@ -154,9 +175,35 @@
                   {% else %}
                     href="{{ block.settings.button_link_2 }}"
                   {% endif %}
-                  class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
+                  class="button-rotate2 button button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
                 >
-                  {{- block.settings.button_label_2 | escape -}}
+                   <div class="icon-button-container">
+                 <div class="button-text"> 
+                 {{- block.settings.button_label_2 | escape -}} 
+                 </div>
+                      <img class="mouse-icon" src="data:image/svg+xml;base64,
+                 PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjI3LjAwMDAwMHB0IiBoZWlnaHQ9IjE5MS4wMDAwMDBwdCIgdmlld0JveD0iMCAwIDIyNy4wMDAwMDAgMTkxLjAwMDAwMCIKIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiPgo8bWV0YWRhdGE+CkNyZWF0ZWQgYnkgcG90cmFjZSAxLjE2LCB3cml0dGVuIGJ5IFBldGVyIFNlbGluZ2VyIDIwMDEtMjAxOQo8L21ldGFkYXRhPgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwxOTEuMDAwMDAwKSBzY2FsZSgwLjEwMDAwMCwtMC4xMDAwMDApIgpmaWxsPSIjOTc0N0ZGIiBzdHJva2U9Im5vbmUiPgo8cGF0aCBkPSJNOTQzIDE4NDAgYy0zODIgLTU2IC03MDAgLTM3NSAtNzYyIC03NjUgLTEyIC04MSAtNjUgLTg5NCAtNTggLTkwMQoxMSAtMTEgMzkwIC0zMSA0MzQgLTIzIDEzMSAyNSAyMDcgMTE4IDIyMyAyNzYgMTggMTcwIDE0IDIzMiAtMjEgMzAzIC0yMiA0NAotNDUgNzIgLTc2IDk0IC02MyA0NCAtOTggNTQgLTIyMSA2MiBsLTEwNyA3IDcgODYgYzI1IDMxNCAyMzQgNTY4IDUzOCA2NTYgNDkKMTUgOTYgMTkgMTkwIDE5IDEwOCAtMSAxMzYgLTQgMjA1IC0yNyAxOTEgLTY0IDM1MCAtMTk5IDQzNyAtMzcyIDUzIC0xMDUgODQKLTI3MSA3MyAtMzg2IGwtNyAtNjYgLTEzNiAxIGMtMTI5IDEgLTE0MCAwIC0xODcgLTI1IC01OSAtMzEgLTExOCAtMTAzIC0xMzYKLTE2NyAtNyAtMjcgLTEzIC0xMDcgLTEzIC0xOTYgLTEgLTE3MSA4IC0yMDMgODAgLTI2NiA3MCAtNjEgMTA2IC03MCAzMjcgLTg1CjEyNiAtOCAyMDQgLTEwIDIwOCAtNCA0IDggMjIgMjY2IDM1IDUxNCAyIDMzIDggMTMxIDE1IDIxOSAxNyAyNDAgLTYgMzc3IC05Mwo1NTEgLTE3NyAzNTMgLTU2MiA1NTIgLTk1NSA0OTV6IG0tMzgyIC0xMTYzIGMzNiAtMjMgNDIgLTUwIDM0IC0xNzMgLTYgLTEwNAotMTAgLTEyMCAtMzEgLTE0MSAtMjEgLTIxIC0zMiAtMjMgLTExMSAtMjMgLTQ4IDAgLTk5IDMgLTExMiA3IC0yMiA2IC0yMyA5Ci0xNyA3MiAzIDM2IDkgMTE1IDEyIDE3NSBsNyAxMDggMTAwIC03IGM1NSAtNCAxMDggLTEyIDExOCAtMTh6IG0xMTY4IC02NApsNjMgLTYgLTYgLTUxIGMtMyAtMjggLTggLTEwNyAtMTEgLTE3NiAtMyAtNjggLTcgLTEyNSAtOCAtMTI1IC0xIC0xIC00NiAyCi0xMDAgNSAtMTU2IDExIC0xNjYgMjYgLTE1MiAyMTcgMTAgMTQyIDMyIDE1NiAyMTQgMTM2eiIvPgo8L2c+Cjwvc3ZnPgo=
+                " alt="icon-mouse" />
+                 </div>
+                </a>
+              {%- endif -%}
+                {%- if block.settings.button_label_3 != blank -%}
+                <a
+                  {% if block.settings.button_link_3 == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.button_link_3 }}"
+                  {% endif %}
+                  class="button-rotate3 button button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
+                >
+                  <div class="icon-button-container">
+                 <div class="button-text"> 
+                 {{- block.settings.button_label_3 | escape -}} 
+                 </div>
+                      <img class="mouse-icon" src="data:image/svg+xml;base64,
+                 PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjc2LjAwMDAwMHB0IiBoZWlnaHQ9IjE3Mi4wMDAwMDBwdCIgdmlld0JveD0iMCAwIDI3Ni4wMDAwMDAgMTcyLjAwMDAwMCIKIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiPgo8bWV0YWRhdGE+CkNyZWF0ZWQgYnkgcG90cmFjZSAxLjE2LCB3cml0dGVuIGJ5IFBldGVyIFNlbGluZ2VyIDIwMDEtMjAxOQo8L21ldGFkYXRhPgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwxNzIuMDAwMDAwKSBzY2FsZSgwLjEwMDAwMCwtMC4xMDAwMDApIgpmaWxsPSIjOTc0N0ZGIiBzdHJva2U9Im5vbmUiPgo8cGF0aCBkPSJNMzAxIDE2NzkgYy01OSAtMTEgLTExNCAtNTAgLTE0OCAtMTAxIGwtMjggLTQyIC0zIC02NDMgYy0yIC02MTggLTIKLTY0NCAxNyAtNjgwIDIzIC00NSA2MiAtODMgMTExIC0xMDkgMzMgLTE4IDc4IC0xOSAxMDEwIC0xOSBsOTc1IDAgNDEgMjIgYzU2CjMwIDEwOSA5NCAxMjMgMTQ4IDcgMzAgMTEgMjM2IDExIDYzMyAwIDY2NyAxIDY1OCAtNzIgNzI5IC0yNCAyMyAtNTYgNDggLTczCjU1IC0yNCAxMCAtMjIxIDEzIC05NzUgMTUgLTUyMCAwIC05NjUgLTMgLTk4OSAtOHogbTM4OSAtNDQ5IGwwIC0xMjEgLTExNyAzCi0xMTggMyAtMyAxMDQgYy0xIDU4IDAgMTExIDIgMTE4IDQgMTAgMzUgMTMgMTIxIDEzIGwxMTUgMCAwIC0xMjB6IG0zNDEgMzAKYzEgLTQ5IDEgLTEwMiAyIC0xMTcgbDEgLTI4IC0xMTcgLTMgLTExNyAtMyAwIDEyMSAwIDEyMCAxMTUgMCAxMTUgMCAxIC05MHoKbTM0OSAtMzAgbDAgLTEyMCAtMTIwIDAgLTEyMCAwIDAgMTIwIDAgMTIwIDEyMCAwIDEyMCAwIDAgLTEyMHogbTM0MiAyMyBjNQotMTU2IDE2IC0xNDMgLTExOCAtMTQzIGwtMTE0IDAgMCAxMjAgMCAxMjAgMTE0IDAgMTE1IDAgMyAtOTd6IG0zNDggLTIzIGwwCi0xMjAgLTEyMCAwIC0xMjAgMCAwIDEyMCAwIDEyMCAxMjAgMCAxMjAgMCAwIC0xMjB6IG0tMTM4MCAtMzQ1IGMwIC02MyAtMwotMTE1IC03IC0xMTUgLTUgMCAtNTcgLTEgLTExOCAtMiBsLTExMCAtMSAtMyAxMTYgLTMgMTE3IDEyMSAwIDEyMCAwIDAgLTExNXoKbTM0NCAtMyBjMSAtMTEwIDEgLTExMiAtMjEgLTExMiAtMTMgLTEgLTY1IC0xIC0xMTUgLTEgbC05MyAtMSAtMyAxMTYgLTMgMTE3CjExNyAtMyAxMTYgLTMgMiAtMTEzeiBtMzQ2IDMgYzAgLTEwMyAtMiAtMTE1IC0xNyAtMTE2IC0xMCAwIC02MyAtMSAtMTE4IC0xCmwtMTAwIC0xIC0zIDExNyAtMyAxMTYgMTIxIDAgMTIwIDAgMCAtMTE1eiBtMzQyIDIxIGM1IC0xNTAgMTMgLTE0MSAtMTIwCi0xNDEgbC0xMTIgMCAwIDExOCAwIDExNyAxMTQgMCAxMTUgMCAzIC05NHogbTM0OCAtMjEgbDAgLTExNSAtNjUgLTEgYy0zNiAwCi04NSAwIC0xMTAgMCAtMjUgMCAtNDkgMCAtNTUgMCAtNiAxIC0xMCA0NiAtMTAgMTE2IGwwIDExNSAxMjAgMCAxMjAgMCAwCi0xMTV6IG0tMzQ5IC0yMjkgYzIgLTIgMyAtNTYgMSAtMTIwIGwtMyAtMTE2IC00NjAgMCAtNDU5IDAgMCAxMjAgMCAxMjAgNDU4CjAgYzI1MiAwIDQ2MSAtMiA0NjMgLTR6Ii8+CjwvZz4KPC9zdmc+Cg==
+                " alt="icon-mouse" />
+                 </div>
                 </a>
               {%- endif -%}
             </div>
@@ -362,14 +409,21 @@
     }
   ],
   "blocks": [
-    {
+  
+     {
       "type": "heading",
       "name": "t:sections.image-banner.blocks.heading.name",
-      "limit": 1,
+      "limit": 2,
       "settings": [
         {
           "type": "inline_richtext",
           "id": "heading",
+          "default": "t:sections.image-banner.blocks.heading.settings.heading.default",
+          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+        }, 
+        {
+          "type": "inline_richtext",
+          "id": "heading2",
           "default": "t:sections.image-banner.blocks.heading.settings.heading.default",
           "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
         },
@@ -403,6 +457,27 @@
         }
       ]
     },
+
+    {
+       "type": "text2",  
+      "name": "Second Heading Block",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "This is a heading",
+          "label": "Heading Text"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "heading2",
+          "default": "This is a second heading",
+          "label": "Second Heading Text"
+        }
+      ]
+
+    },
+    
     {
       "type": "text",
       "name": "t:sections.image-banner.blocks.text.name",
@@ -436,49 +511,67 @@
         }
       ]
     },
+   {
+  "type": "buttons",
+  "name": "t:sections.image-banner.blocks.buttons.name",
+  "limit": 1,
+  "settings": [
     {
-      "type": "buttons",
-      "name": "t:sections.image-banner.blocks.buttons.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "button_label_1",
-          "default": "t:sections.image-banner.blocks.buttons.settings.button_label_1.default",
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
-          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
-        },
-        {
-          "type": "url",
-          "id": "button_link_1",
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
-        },
-        {
-          "type": "checkbox",
-          "id": "button_style_secondary_1",
-          "default": false,
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_1.label"
-        },
-        {
-          "type": "text",
-          "id": "button_label_2",
-          "default": "t:sections.image-banner.blocks.buttons.settings.button_label_2.default",
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_2.label",
-          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_2.info"
-        },
-        {
-          "type": "url",
-          "id": "button_link_2",
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_2.label"
-        },
-        {
-          "type": "checkbox",
-          "id": "button_style_secondary_2",
-          "default": false,
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
-        }
-      ]
+      "type": "text",
+      "id": "button_label_1",
+      "default": "t:sections.image-banner.blocks.buttons.settings.button_label_1.default",
+      "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
+      "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
+    },
+    {
+      "type": "url",
+      "id": "button_link_1",
+      "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "button_style_secondary_1",
+      "default": false,
+      "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_1.label"
+    },
+    {
+      "type": "text",
+      "id": "button_label_2",
+      "default": "t:sections.image-banner.blocks.buttons.settings.button_label_2.default",
+      "label": "t:sections.image-banner.blocks.buttons.settings.button_label_2.label",
+      "info": "t:sections.image-banner.blocks.buttons.settings.button_label_2.info"
+    },
+    {
+      "type": "url",
+      "id": "button_link_2",
+      "label": "t:sections.image-banner.blocks.buttons.settings.button_link_2.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "button_style_secondary_2",
+      "default": false,
+      "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
+    },
+    {
+      "type": "text",
+      "id": "button_label_3",
+      "default": "t:sections.image-banner.blocks.buttons.settings.button_label_3.default",
+      "label": "t:sections.image-banner.blocks.buttons.settings.button_label_3.label",
+      "info": "t:sections.image-banner.blocks.buttons.settings.button_label_3.info"
+    },
+    {
+      "type": "url",
+      "id": "button_link_3",
+      "label": "t:sections.image-banner.blocks.buttons.settings.button_link_3.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "button_style_secondary_3",
+      "default": false,
+      "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_3.label"
     }
+  ]
+},
   ],
   "presets": [
     {

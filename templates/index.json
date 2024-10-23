@@ -1,12 +1,4 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
+
 {
   "sections": {
     "image_banner": {
@@ -15,29 +7,34 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "12h TECH",
-            "heading_size": "hxxl"
+              "heading": "12h TECH",
+              "heading2": "La cuenta regresiva para la innovacion",
+            "heading_size": "h1"
           }
         },
         "text_GeCFcH": {
           "type": "text",
           "settings": {
-            "text": "La cuenta regresiva hacia la innovación                                                 12H TECH, somos una empresa dedicada a la comercialización y exportación de periféricos especializados de computadora en América Latina",
+            "text": "12H TECH, somos una empresa dedicada a la comercialización y exportación de periféricos especializados de computadora en América Latina",
             "text_style": "subtitle"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop now",
-            "button_link_1": "shopify://collections/all",
+            "button_label_1": "Ratones",
+            "button_link_1": "shopify://collections/Mouse",
             "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_2": "Audífonos",
+            "button_link_2": "shopify://collections/teclados",
+            "button_style_secondary_2": true,
+            "button_label_3": "Teclados",
+            "button_link_3": "shopify://collections/Teclados",
+            "button_style_secondary_3": true
           }
         }
       },
+      
       "block_order": [
         "heading",
         "text_GeCFcH",
@@ -63,7 +60,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Our products",
+        "title": "Productos",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
