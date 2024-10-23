@@ -1,0 +1,200 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "473e476f-158e-4ca5-9fe7-8063acc17374": {
+      "type": "app-rush-container-grid",
+      "blocks": {
+        "461c6fd9-3cd7-44c4-a72d-36cdfc36315c": {
+          "type": "shopify:\/\/apps\/rush\/blocks\/loader\/9a153296-7598-4fae-bbe4-34d037cc4e38",
+          "settings": {
+            "primaryColor": "#000000",
+            "secondaryColor": "#f3f3f3",
+            "cssStyle": ""
+          }
+        },
+        "f8923546-8bc6-4b30-8d16-3cec32dc1216": {
+          "type": "shopify:\/\/apps\/rush\/blocks\/search-bar\/9a153296-7598-4fae-bbe4-34d037cc4e38",
+          "settings": {
+            "searchTitle": "",
+            "buttonLabel": "",
+            "searchMode": "any",
+            "rightToLeft": false,
+            "titleColor": "#000000",
+            "buttonLabelColor": "#ffffff",
+            "buttonBgColor": "#000000",
+            "buttonBgHoverColor": "#000000",
+            "formBGColor": "#f3f3f3",
+            "showFormBGColor": false,
+            "cssStyle": ""
+          }
+        },
+        "dde29dff-7710-405b-bf37-f136dd89d64d": {
+          "type": "shopify:\/\/apps\/rush\/blocks\/back-to-search\/9a153296-7598-4fae-bbe4-34d037cc4e38",
+          "settings": {
+            "header": "",
+            "rightToLeft": false,
+            "linkColor": "#000000",
+            "linkHoverColor": "#000000",
+            "cssStyle": ""
+          }
+        },
+        "928e9042-faae-40f9-9c23-8a13364447fb": {
+          "type": "shopify:\/\/apps\/rush\/blocks\/search-results\/9a153296-7598-4fae-bbe4-34d037cc4e38",
+          "settings": {
+            "header": "",
+            "buttonLabel": "",
+            "rightToLeft": false,
+            "titleColor": "#000000",
+            "messagesColor": "#000000",
+            "linkColor": "#000000",
+            "linkHoverColor": "#000000",
+            "buttonLabelColor": "#ffffff",
+            "buttonBgColor": "#000000",
+            "borderColor": "#f3f3f3",
+            "cssStyle": ""
+          }
+        },
+        "89d02886-3a4e-4124-a8db-5d0422949af0": {
+          "type": "shopify:\/\/apps\/rush\/blocks\/wizard-timeline\/9a153296-7598-4fae-bbe4-34d037cc4e38",
+          "settings": {
+            "dateFormat": "MMM D",
+            "rightToLeft": false,
+            "titleColor": "#000000",
+            "dateTextColor": "#000000",
+            "textPrimaryClr": "#000000",
+            "textSecondaryClr": "#000000",
+            "timelinePrimaryClr": "#000000",
+            "timelineSecondaryClr": "#f3f3f3",
+            "cssStyle": ""
+          }
+        }
+      },
+      "block_order": [
+        "461c6fd9-3cd7-44c4-a72d-36cdfc36315c",
+        "f8923546-8bc6-4b30-8d16-3cec32dc1216",
+        "dde29dff-7710-405b-bf37-f136dd89d64d",
+        "928e9042-faae-40f9-9c23-8a13364447fb",
+        "89d02886-3a4e-4124-a8db-5d0422949af0"
+      ],
+      "settings": {
+        "visibility": "all_the_time",
+        "columns_mobile": 1,
+        "columns_tablet": 1,
+        "columns_desktop": 1,
+        "columns_large": 1,
+        "columns_xlarge": 1,
+        "columns_2xlarge": 1
+      }
+    },
+    "caf34a09-52ee-4cc0-9465-f8bf20c856c1": {
+      "type": "app-rush-container-grid",
+      "blocks": {
+        "fe8916b8-a03c-46d2-9ebf-fc992a429944": {
+          "type": "shopify:\/\/apps\/rush\/blocks\/shipment-details\/9a153296-7598-4fae-bbe4-34d037cc4e38",
+          "settings": {
+            "title": "",
+            "etaTitle": "",
+            "showMessageLocations": false,
+            "showCarrierInfo": false,
+            "timeStampFormat": "MMM D",
+            "numOfCollaseMessages": 3,
+            "rightToLeft": false,
+            "titleColor": "#000000",
+            "linkColor": "#000000",
+            "linkHoverColor": "#000000",
+            "etatextColor": "#000000",
+            "msgTextColor": "#000000",
+            "borderColor": "#f3f3f3",
+            "cssStyle": ""
+          }
+        },
+        "196f6fe0-11d4-479a-8ef1-4679420319ed": {
+          "type": "shopify:\/\/apps\/rush\/blocks\/items-in-shipment\/9a153296-7598-4fae-bbe4-34d037cc4e38",
+          "settings": {
+            "header": "",
+            "showProductImage": true,
+            "addBuyAgainBtn": true,
+            "addWriteReviewBtn": true,
+            "rightToLeft": false,
+            "titleColor": "#000000",
+            "linkColor": "#000000",
+            "linkHoverColor": "#000000",
+            "borderColor": "#f3f3f3",
+            "cssStyle": ""
+          }
+        }
+      },
+      "block_order": [
+        "fe8916b8-a03c-46d2-9ebf-fc992a429944",
+        "196f6fe0-11d4-479a-8ef1-4679420319ed"
+      ],
+      "settings": {
+        "visibility": "all_the_time",
+        "columns_mobile": 1,
+        "columns_tablet": 2,
+        "columns_desktop": 2,
+        "columns_large": 2,
+        "columns_xlarge": 2,
+        "columns_2xlarge": 2
+      }
+    },
+    "e45b0426-7e32-4f1c-a431-cd7af67a3766": {
+      "type": "app-rush-container-grid",
+      "blocks": {
+        "4c54c6f7-bb45-47d1-ad50-ab53ab1412c6": {
+          "type": "shopify:\/\/apps\/rush\/blocks\/cross-sell-products\/9a153296-7598-4fae-bbe4-34d037cc4e38",
+          "settings": {
+            "viewAllTitle": "",
+            "viewAllLink": "",
+            "listSource": "rush-upsells",
+            "pickProducts": [
+
+            ],
+            "pickCollection": "",
+            "pickLink": "",
+            "layout": "slider",
+            "numOfItems": 20,
+            "imageAction": "view_item",
+            "textColor": "#000000",
+            "viewAllColor": "#000000",
+            "viewAllHoverColor": "#000000",
+            "cssStyle": ""
+          }
+        }
+      },
+      "block_order": [
+        "4c54c6f7-bb45-47d1-ad50-ab53ab1412c6"
+      ],
+      "settings": {
+        "visibility": "all_the_time",
+        "columns_mobile": 1,
+        "columns_tablet": 1,
+        "columns_desktop": 1,
+        "columns_large": 1,
+        "columns_xlarge": 1,
+        "columns_2xlarge": 1
+      }
+    },
+    "7dd7e0a6-fc7a-4269-b4f3-ca041e2b301c": {
+      "type": "app-rush-container-empty-space",
+      "settings": {
+        "desktop_height": 40,
+        "mobile_height": 28
+      }
+    }
+  },
+  "order": [
+    "473e476f-158e-4ca5-9fe7-8063acc17374",
+    "caf34a09-52ee-4cc0-9465-f8bf20c856c1",
+    "e45b0426-7e32-4f1c-a431-cd7af67a3766",
+    "7dd7e0a6-fc7a-4269-b4f3-ca041e2b301c"
+  ]
+}

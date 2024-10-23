@@ -1,0 +1,122 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_rnGdbz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mDVUQn": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>NOSOTROS SOMOS  </strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_xWGN93": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En 12H TECH, somos un equipo apasionado por la tecnología.Nos dedicamos a ofrecer periféricos de computadora de altacalidad, diseñados para satisfacer las necesidades de profesionales y entusiastas de la tecnología en toda América Latina. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mDVUQn",
+        "text_xWGN93"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/model.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_jFXKTB": {
+      "type": "multirow",
+      "blocks": {
+        "row_tVB9Lt": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Group_1.svg",
+            "caption": "",
+            "heading": "<strong>500.00+</strong>",
+            "text": "<p>Clientes satisfechos.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_y6eXDB": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/gis_search-country.svg",
+            "caption": "",
+            "heading": "<strong>5 Países+ </strong>",
+            "text": "<p>Proyectos realizados en más de 5 países</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_nYgKpj": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/lineicons_customer.svg",
+            "caption": "",
+            "heading": "<strong>99%</strong>",
+            "text": "<p> Satisfacción en nuestros servicios</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_tVB9Lt",
+        "row_y6eXDB",
+        "row_nYgKpj"
+      ],
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "small",
+        "heading_size": "h0",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-2",
+        "row_color_scheme": "scheme-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_rnGdbz",
+    "multirow_jFXKTB"
+  ]
+}
