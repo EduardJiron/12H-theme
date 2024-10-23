@@ -15,7 +15,7 @@
 <style>
   header-drawer {
     justify-self: start;
-    margin-left: -1.2rem;
+    margin-left: -1.5rem;
   }
 
   {%- if section.settings.sticky_header_type == 'reduce-logo-size' -%}
@@ -36,17 +36,21 @@
     display: flex;
   }
   .section-header {
-    background-color: transparent;
+    
     transition: background-color 0.3s ease;
 }
+.section-header.transparent {
+    position:fixed;
+    width:100%;
+}
   .section-header.solid {
-    background-color: #FFFFFF; 
+    position:fixed;
+    width:100%;
+    background-color: #fff; 
     
 }
 
-.header {
-    transition: background-color 0.3s, color 0.3s;
-}
+
 .header__icon {
     transition: color 0.3s ease;
 }
