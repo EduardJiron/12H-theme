@@ -60,6 +60,9 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        ".banner__media.media.scroll-trigger.animate--fade-in {height: 80px;}"
+      ],
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
