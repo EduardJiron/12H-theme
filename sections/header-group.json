@@ -32,22 +32,9 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "custom_liquid_pNfa7h": {
-      "type": "custom-liquid",
-      "custom_css": [
-        "header-custom {}"
-      ],
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "scheme-3",
-        "padding_top": 28,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
-    "header",
-    "custom_liquid_pNfa7h"
+    "header"
   ]
 }
