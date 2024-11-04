@@ -13,10 +13,22 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "text_9h97UU": {
+          "type": "text",
+          "settings": {
+            "heading": "¡Solo por regístrate en nuestra pagina!",
+            "subtext": "<p><strong>Opten 10% de descuento en tu primera compra</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_9h97UU"
+      ],
       "settings": {
         "color_scheme": "scheme-3",
         "newsletter_enable": true,
-        "newsletter_heading": "<strong>¡Contactanos!</strong>",
+        "newsletter_heading": "<strong>¡Regístrate ya!</strong>",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
