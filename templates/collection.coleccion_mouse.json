@@ -15,15 +15,15 @@
         "heading_BHD6Eg": {
           "type": "heading",
           "settings": {
-            "heading": "Banner de imagen",
-            "heading2": "Banner de imagen",
+            "heading": "",
+            "heading2": "La cuenta regresiva para la innovacion",
             "heading_size": "h1"
           }
         },
         "text_wrcqjF": {
           "type": "text",
           "settings": {
-            "text": "Ofrece a los clientes información sobre las imágenes del banner o el contenido de la plantilla.",
+            "text": "12H TECH, somos una empresa dedicada a la comercialización y exportación de periféricos especializados de computadora en AméricaLatina",
             "text_style": "body"
           }
         }
