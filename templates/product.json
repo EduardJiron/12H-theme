@@ -36,7 +36,7 @@
         ".banner--medium:not(.banner--adapt) {min-height: 0rem; height: 78px;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/main_menu2.png",
+        "image": "shopify://shop_images/Rectangle_1.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
