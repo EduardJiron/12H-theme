@@ -11,34 +11,13 @@
   "sections": {
     "image_banner_xzBG6h": {
       "type": "image-banner",
-      "blocks": {
-        "heading_Y6b6yc": {
-          "type": "heading",
-          "settings": {
-            "heading": "12h TECH",
-            "heading2": "La cuenta regresiva para la innovacion",
-            "heading_size": "h1"
-          }
-        },
-        "text_f77bba": {
-          "type": "text",
-          "settings": {
-            "text": "12H TECH, somos una empresa dedicada a la comercialización y exportación de periféricos especializados de computadora en AméricaLatina",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Y6b6yc",
-        "text_f77bba"
-      ],
       "custom_css": [
         ".banner--medium:not(.banner--adapt) {min-height: 0rem; height: 70px;}"
       ],
       "settings": {
         "image": "shopify://shop_images/main_menu2.png",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
