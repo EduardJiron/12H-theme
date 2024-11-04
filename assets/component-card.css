@@ -115,6 +115,7 @@
 
 .card__inner {
   width: 100%;
+  height: 300px;
 }
 
 .card--media .card__inner .card__content {
@@ -294,6 +295,7 @@
   object-fit: cover;
   object-position: center center;
   width: 100%;
+  background: white;
 }
 
 .card__inner:not(.ratio) > .card__content {
