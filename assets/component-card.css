@@ -289,7 +289,7 @@
 .card:not(.card--horizontal) > .card__content > .card__badge {
   margin: 1.3rem;
 }
-
+  
 .card__media .media img {
   height: 100%;
   object-fit: cover;

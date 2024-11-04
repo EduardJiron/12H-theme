@@ -15,24 +15,14 @@
         "heading_BHD6Eg": {
           "type": "heading",
           "settings": {
-            "heading": "Banner de imagen",
-            "heading_size": "h1"
-          }
-        },
-        "text_wrcqjF": {
-          "type": "text",
-          "settings": {
-            "text": "Ofrece a los clientes información sobre las imágenes del banner o el contenido de la plantilla.",
-            "text_style": "body"
+            "heading": "",
+            "heading_size": ""
           }
         }
       },
-      "block_order": [
-        "heading_BHD6Eg",
-        "text_wrcqjF"
-      ],
+  
       "custom_css": [
-        ".banner--medium:not(.banner--adapt) {min-height: 0rem; }"
+        ".banner--medium:not(.banner--adapt) {min-height: 0rem; height:80px }"
       ],
       "settings": {
         "image": "shopify://shop_images/main_menu2.png",
@@ -73,7 +63,7 @@
         "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "2",
-        "padding_top": 36,
+        "padding_top": 30,
         "padding_bottom": 36
       }
     }

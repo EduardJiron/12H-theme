@@ -43,6 +43,14 @@
     position:fixed;
     width:100%;
 }
+.header__submenu.transparent{
+  background-color:black;
+  color:#B666D9;
+}
+.header__submenu.solid{
+  background-color:white;
+  
+}
   .section-header.solid {
     position:fixed;
     width:100%;
@@ -409,39 +417,45 @@
         }
     }
 
-   onScroll() {
+onScroll() {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
     if (this.predictiveSearch && this.predictiveSearch.isOpen) return;
 
     const isSolid = scrollTop > 50;
 
-   
+    // Cambia la clase del encabezado principal
     this.header.classList.toggle('solid', isSolid);
     this.header.classList.toggle('transparent', !isSolid);
 
+    // Cambia la clase de los elementos del menú
     const headerMenuItems = this.header.querySelectorAll('.header__menu-item');
     const activeItem = this.header.querySelector('.header__active-menu-item');
-
   
     headerMenuItems.forEach(item => {
         item.classList.toggle('solid', isSolid);
         item.classList.toggle('transparent', !isSolid);
     });
 
-  
     if (activeItem) {
         activeItem.classList.toggle('solid', isSolid);
         activeItem.classList.toggle('transparent', !isSolid);
     }
 
- 
+    // Cambia la clase de los íconos
     const icons = this.header.querySelectorAll('.header__icon');
     icons.forEach(icon => {
         icon.classList.toggle('solid', isSolid);
         icon.classList.toggle('transparent', !isSolid);
     });
     
+    // Cambia la clase de los submenús
+    const submenus = this.header.querySelectorAll('.header__submenu');
+    submenus.forEach(submenu => {
+        submenu.classList.toggle('solid', isSolid);
+        submenu.classList.toggle('transparent', !isSolid);
+    });
+
     this.currentScrollTop = scrollTop;
 }
 
