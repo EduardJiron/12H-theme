@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "12h TECH",
+            "heading": "12H TECH",
             "heading2": "La cuenta regresiva para la innovacion",
             "heading_size": "h1"
           }
@@ -112,6 +112,9 @@
         "featured_collection_3Px6Mq",
         "featured_collection_N3eFLQ"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "Nuestras colecciones",
         "heading_size": "h1",
@@ -127,6 +130,9 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "Nuestros Productos",
         "heading_size": "h1",
