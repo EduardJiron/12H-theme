@@ -12,12 +12,12 @@
     "image_banner_xzBG6h": {
       "type": "image-banner",
       "custom_css": [
-        ".banner--medium:not(.banner--adapt) {min-height: 0rem; height:70px;}"
+        ".banner--medium:not(.banner--adapt) {min-height: 0rem; height: 70px;}"
       ],
       "settings": {
         "image": "shopify://shop_images/main_menu2.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
