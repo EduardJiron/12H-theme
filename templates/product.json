@@ -33,7 +33,8 @@
         "text_fNGwy9"
       ],
       "custom_css": [
-        ".banner--medium:not(.banner--adapt) {height: 78px;}"
+        ".banner--medium:not(.banner--adapt) {min-height: 0rem; height:80px}",
+        "@media only screen and (max-width: 768px) {.banner__media.media.scroll-trigger.animate--fade-in {height: 80px;}}"
       ],
       "settings": {
         "image": "shopify://shop_images/Rectangle_1.png",
