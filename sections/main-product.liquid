@@ -111,7 +111,7 @@
                     product: product,
                     use_variant: true,
                     show_badges: true,
-                    price_class: 'price--large'
+                    price_class: 'price--large special-price'
                   -%}
                 </div>
                 {%- if product.quantity_price_breaks_configured? -%}
@@ -250,7 +250,7 @@
                       >
                     </span>
                   </label>
-                  <div class="price-per-item__container">
+                  <div class="price-per-item__container special-price">
                     <quantity-input class="quantity" data-url="{{ product.url }}" data-section="{{ section.id }}">
                       <button class="quantity__button" name="minus" type="button">
                         <span class="visually-hidden">
@@ -303,7 +303,7 @@
                           <div class="price-per-item">
                             {%- if variant_price_compare -%}
                               <dl class="price-per-item--current">
-                                <dt class="visually-hidden">
+                                <dt class="visually-hidden ">
                                   {{ 'products.product.price.regular_price' | t }}
                                 </dt>
                                 <dd>
@@ -402,7 +402,7 @@
                         <span class="caption-large">{{ 'products.product.volume_pricing.title' | t }}</span>
                         <ul class="list-unstyled">
                           <li>
-                            <span>{{ product.selected_or_first_available_variant.quantity_rule.min }}+</span>
+                            <span class="special-price" >{{ product.selected_or_first_available_variant.quantity_rule.min }}+</span>
                             {%- assign price = product.selected_or_first_available_variant.price
                               | money_with_currency
                             -%}
