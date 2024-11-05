@@ -328,7 +328,9 @@
 .card__heading:last-child {
   margin-bottom: 0;
 }
-
+.special-price > .price__container >.price__regular >span{
+  color: black;
+}
 .card--horizontal .card__heading,
 .card--horizontal .price__container .price-item,
 .card--horizontal__quick-add {
