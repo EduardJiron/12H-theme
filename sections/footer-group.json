@@ -20,24 +20,31 @@
             "heading": "¡Solo por regístrate en nuestra pagina!",
             "subtext": "<p><strong>Opten 10% de descuento en tu primera compra</strong></p>"
           }
+        },
+        "brand_information_NVMA9L": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
         }
       },
       "block_order": [
-        "text_9h97UU"
+        "text_9h97UU",
+        "brand_information_NVMA9L"
       ],
       "settings": {
         "color_scheme": "scheme-3",
-        "newsletter_enable": false,
+        "newsletter_enable": true,
         "newsletter_heading": "",
         "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": true,
         "payment_enable": true,
-        "show_policy": false,
+        "show_policy": true,
         "margin_top": 0,
-        "padding_top": 36,
-        "padding_bottom": 0
+        "padding_top": 20,
+        "padding_bottom": 36
       }
     }
   },
