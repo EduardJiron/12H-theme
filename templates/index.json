@@ -73,10 +73,28 @@
             "collection": "mouses"
           }
         },
+        "featured_collection_3Px6Mq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "teclados"
+          }
+        },
         "featured_collection_CYXR3P": {
           "type": "featured_collection",
           "settings": {
             "collection": "headsets"
+          }
+        },
+        "featured_collection_N3eFLQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "teclas"
+          }
+        },
+        "featured_collection_7cEDPN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "switches"
           }
         },
         "featured_collection_XkWagc": {
@@ -84,42 +102,15 @@
           "settings": {
             "collection": "bace"
           }
-        },
-        "featured_collection_7cEDPN": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": "switches"
-          }
-        },
-        "featured_collection_3Px6Mq": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "teclados"
-          }
-        },
-        "featured_collection_N3eFLQ": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": "teclas"
-          }
-        },
-        "featured_collection_tgyGif": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "switches"
-          }
         }
       },
       "block_order": [
         "featured_collection_NCqMfj",
-        "featured_collection_CYXR3P",
-        "featured_collection_XkWagc",
-        "featured_collection_7cEDPN",
         "featured_collection_3Px6Mq",
+        "featured_collection_CYXR3P",
         "featured_collection_N3eFLQ",
-        "featured_collection_tgyGif"
+        "featured_collection_7cEDPN",
+        "featured_collection_XkWagc"
       ],
       "custom_css": [
 
