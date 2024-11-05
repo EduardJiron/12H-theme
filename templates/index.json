@@ -128,6 +128,45 @@
         "padding_bottom": 36
       }
     },
+    "collage_RRNhYd": {
+      "type": "collage",
+      "blocks": {
+        "image_YN6y7M": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/12_88ecba48-1ff9-4245-a589-98637dfa5753.png"
+          }
+        },
+        "product_6bfcfR": {
+          "type": "product",
+          "settings": {
+            "product": "shure-microfono-sm7b",
+            "second_image": false
+          }
+        },
+        "collection_rbqApK": {
+          "type": "collection",
+          "settings": {
+            "collection": "microfonos"
+          }
+        }
+      },
+      "block_order": [
+        "image_YN6y7M",
+        "product_6bfcfR",
+        "collection_rbqApK"
+      ],
+      "settings": {
+        "heading": "Collage multimedia",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
@@ -163,6 +202,7 @@
   "order": [
     "image_banner",
     "collection_list_7c7cTa",
+    "collage_RRNhYd",
     "featured_collection"
   ]
 }
