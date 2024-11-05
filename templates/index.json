@@ -30,7 +30,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Ratones",
+            "button_label_1": "Mouses",
             "button_link_1": "shopify://collections/mouses",
             "button_style_secondary_1": true,
             "button_label_2": "Audífonos",
