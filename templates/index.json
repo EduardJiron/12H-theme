@@ -236,6 +236,50 @@
         "show_text_below": true,
         "accessibility_info": "Presentación de diapositivas sobre tu marca"
       }
+    },
+    "featured_product_xkLGF9": {
+      "type": "featured-product",
+      "blocks": {
+        "text_bb8KC3": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_6p49rP": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "variant_picker_6Q6hpa": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "text_bb8KC3",
+        "title_6p49rP",
+        "variant_picker_6Q6hpa"
+      ],
+      "settings": {
+        "product": "airpods-max-de-apple",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -243,6 +287,7 @@
     "collection_list_7c7cTa",
     "collage_RRNhYd",
     "featured_collection",
-    "slideshow_Azwb8c"
+    "slideshow_Azwb8c",
+    "featured_product_xkLGF9"
   ]
 }
