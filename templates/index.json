@@ -98,9 +98,7 @@
         "featured_collection_CYXR3P",
         "featured_collection_NLkFTG"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Nuestras colecciones",
         "heading_size": "h1",
@@ -155,9 +153,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Nuestros Productos",
         "heading_size": "h1",
@@ -190,41 +186,62 @@
         "slide_6Nm84Y": {
           "type": "slide",
           "settings": {
-            "heading": "Diapositiva de imagen",
-            "heading_size": "h1",
-            "subheading": "Cuenta la historia de tu marca a través de imágenes",
-            "button_label": "Etiqueta de botón",
+            "image": "shopify://shop_images/banner_pr3.png",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
+            "box_align": "middle-right",
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
         },
-        "slide_LQpHh8": {
+        "slide_dMtCpB": {
           "type": "slide",
           "settings": {
-            "heading": "Diapositiva de imagen",
+            "image": "shopify://shop_images/Producto_estrella_3.png",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Cuenta la historia de tu marca a través de imágenes",
-            "button_label": "Etiqueta de botón",
+            "subheading": "",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_pNPVfx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Produicto_estrella_2.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
         "slide_6Nm84Y",
-        "slide_LQpHh8"
+        "slide_dMtCpB",
+        "slide_pNPVfx"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -266,6 +283,7 @@
         "title_6p49rP",
         "variant_picker_6Q6hpa"
       ],
+      "disabled": true,
       "settings": {
         "product": "airpods-max-de-apple",
         "color_scheme": "",
@@ -280,6 +298,110 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multirow_zKPTrQ": {
+      "type": "multirow",
+      "blocks": {
+        "row_Ryqa8U": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/model22.png",
+            "caption": "",
+            "heading": "LogitechG915 TKL",
+            "text": "<p>Nuevo teclado gaming, RGB LIGHTSYNCinalámbricos, color carbón.</p>",
+            "button_label": "Etiqueta de botón",
+            "button_link": ""
+          }
+        },
+        "row_hxzNbq": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/model33.png",
+            "caption": "",
+            "heading": "Razer BlackShark",
+            "text": "<p>Headset multi plataforma con tarjeta de sonido, color negro.</p>",
+            "button_label": "Etiqueta de botón",
+            "button_link": ""
+          }
+        },
+        "row_wHA3yh": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/model44.png",
+            "caption": "",
+            "heading": "Razer Basilisk v3",
+            "text": "<p>Gaming Mouse: incorpora gaming mouse switch, sensor óptico con 11 botones programables.</p>",
+            "button_label": "Etiqueta de botón",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_Ryqa8U",
+        "row_hxzNbq",
+        "row_wHA3yh"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_tP4Le6": {
+      "type": "multirow",
+      "blocks": {
+        "row_xDRUHF": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/imgconfor2.png",
+            "caption": "Leyenda",
+            "heading": "Fila",
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "button_label": "Etiqueta de botón",
+            "button_link": ""
+          }
+        },
+        "row_xPmg97": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/imgconf_d3f65ff3-a749-4e4d-beb6-431a09a4058a.png",
+            "caption": "Leyenda",
+            "heading": "Fila",
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "button_label": "Etiqueta de botón",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_xDRUHF",
+        "row_xPmg97"
+      ],
+      "settings": {
+        "image_height": "large",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -288,6 +410,8 @@
     "collage_RRNhYd",
     "featured_collection",
     "slideshow_Azwb8c",
-    "featured_product_xkLGF9"
+    "featured_product_xkLGF9",
+    "multirow_zKPTrQ",
+    "multirow_tP4Le6"
   ]
 }

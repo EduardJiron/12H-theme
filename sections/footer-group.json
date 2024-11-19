@@ -17,12 +17,13 @@
         "text_9h97UU": {
           "type": "text",
           "settings": {
-            "heading": "¡Solo por regístrate en nuestra pagina!",
-            "subtext": "<p><strong>Opten 10% de descuento en tu primera compra</strong></p>"
+            "heading": "¡Únete a #12H Tech en Redes Sociales!",
+            "subtext": "<p>Sé el primero en enterarte de nuestos nuevos lanzamientos cuando te unas a la Familia de 12H TECH</p>"
           }
         },
         "brand_information_NVMA9L": {
           "type": "brand_information",
+          "disabled": true,
           "settings": {
             "show_social": true
           }
@@ -34,7 +35,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-3",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "",
         "enable_follow_on_shop": false,
         "show_social": true,
