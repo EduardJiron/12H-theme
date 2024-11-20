@@ -38,7 +38,7 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "",
+            "link": "shopify://products/soni-on-ear",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -56,7 +56,7 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "",
+            "link": "shopify://products/terport-tr95",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -273,35 +273,6 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "custom_css": [],
-      "settings": {
-        "title": "Nuestros Productos",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
-      }
-    },
     "collection_list_WhHhNj": {
       "type": "collection-list",
       "blocks": {
@@ -387,8 +358,8 @@
             "caption": "",
             "heading": "LogitechG915 TKL",
             "text": "<p>Nuevo teclado gaming, RGB LIGHTSYNCinalámbricos, color carbón.</p>",
-            "button_label": "Etiqueta de botón",
-            "button_link": ""
+            "button_label": "Compra ahora",
+            "button_link": "shopify://products/logitech-g915-tkl"
           }
         },
         "row_hxzNbq": {
@@ -398,8 +369,8 @@
             "caption": "",
             "heading": "Razer BlackShark",
             "text": "<p>Headset multi plataforma con tarjeta de sonido, color negro.</p>",
-            "button_label": "Etiqueta de botón",
-            "button_link": ""
+            "button_label": "Compra ahora",
+            "button_link": "shopify://products/razer-razer-blackshark-v2"
           }
         },
         "row_wHA3yh": {
@@ -409,8 +380,8 @@
             "caption": "",
             "heading": "Razer Basilisk v3",
             "text": "<p>Gaming Mouse: incorpora gaming mouse switch, sensor óptico con 11 botones programables.</p>",
-            "button_label": "Etiqueta de botón",
-            "button_link": ""
+            "button_label": "Compra ahora",
+            "button_link": "shopify://products/razer-basilisk-v3"
           }
         }
       },
@@ -435,6 +406,38 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_pzU3Xn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XPAhAd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cuida tu bienestar con lo mejor en ergonomía. ",
+            "heading_size": "h1"
+          }
+        },
+        "caption_9Q7RMi": {
+          "type": "caption",
+          "settings": {
+            "caption": "Haz que la comodidad impulse tu productividad.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XPAhAd",
+        "caption_9Q7RMi"
+      ],
+      "settings": {
+        "desktop_content_position": "right",
+        "content_alignment": "right",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multirow_tP4Le6": {
       "type": "multirow",
       "blocks": {
@@ -442,22 +445,22 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/imgconfor2.png",
-            "caption": "Leyenda",
-            "heading": "Fila",
-            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
-            "button_label": "Etiqueta de botón",
-            "button_link": ""
+            "caption": "",
+            "heading": "Diseño ergonómico que se adapta a ti",
+            "text": "",
+            "button_label": "Mas informacion",
+            "button_link": "shopify://collections/ergonomico"
           }
         },
         "row_xPmg97": {
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/imgconf_d3f65ff3-a749-4e4d-beb6-431a09a4058a.png",
-            "caption": "Leyenda",
-            "heading": "Fila",
-            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
-            "button_label": "Etiqueta de botón",
-            "button_link": ""
+            "caption": "",
+            "heading": "Comodidad y productividad en equilibrio",
+            "text": "<p>Optimiza tu espacio con soluciones ergonómicas.</p>",
+            "button_label": "Crompra ahora",
+            "button_link": "shopify://products/logitech-lift-vertical-ergonomic-mouse"
           }
         }
       },
@@ -472,12 +475,41 @@
         "text_style": "body",
         "button_style": "primary",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "right",
         "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "scheme-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "settings": {
+        "title": "Nuestros Productos",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
         "padding_bottom": 36
       }
     }
@@ -491,6 +523,7 @@
     "collection_list_WhHhNj",
     "featured_collection_Y3q3Gk",
     "multirow_zKPTrQ",
+    "rich_text_pzU3Xn",
     "multirow_tP4Le6",
     "featured_collection"
   ]
