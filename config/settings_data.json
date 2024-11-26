@@ -420,7 +420,7 @@
     "custom_css": [
       "#Banner-template--23676033892633__image_banner {margin-top: -106px; height: 540px;}",
       ".slider-mobile-gutter.page-width {padding: 0;}",
-      ".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-scheme-1.gradient.slideshow__text--center.slideshow__text-mobile--center {padding: 2; width: 150; height: 59%; margin-left: 700px; margin-top: 240px;}"
+      ".slideshow__text.banner__box.content-container.content-container--full-width-mobile.color-scheme-1.gradient.slideshow__text--center.slideshow__text-mobile--center {padding: 0; width: 150; height: 59%; margin-left: 700px; margin-top: 240px;}"
     ]
   }
 }
