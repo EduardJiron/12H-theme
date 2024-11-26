@@ -130,7 +130,7 @@
         "collection": "descuentos-1",
         "products_to_show": 5,
         "columns_desktop": 3,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
