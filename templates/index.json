@@ -125,9 +125,9 @@
         "button_awNTnN": {
           "type": "button",
           "settings": {
-            "button_label": "Etiqueta de botón",
-            "button_link": "",
-            "button_style_secondary": false
+            "button_label": "¡COMPRÁ AHORA!",
+            "button_link": "shopify://products/streaming-deck-ataque-tiburon-x-ajazz-akp153",
+            "button_style_secondary": true
           }
         }
       },
