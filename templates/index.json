@@ -79,42 +79,19 @@
             "collection": "headsets"
           }
         },
-        "featured_collection_XkWagc": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "bace"
-          }
-        },
-        "featured_collection_7cEDPN": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "switches"
-          }
-        },
         "featured_collection_3Px6Mq": {
           "type": "featured_collection",
           "settings": {
             "collection": "teclados"
-          }
-        },
-        "featured_collection_N3eFLQ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "teclas"
           }
         }
       },
       "block_order": [
         "featured_collection_NCqMfj",
         "featured_collection_CYXR3P",
-        "featured_collection_XkWagc",
-        "featured_collection_7cEDPN",
-        "featured_collection_3Px6Mq",
-        "featured_collection_N3eFLQ"
+        "featured_collection_3Px6Mq"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Nuestras colecciones",
         "heading_size": "h1",
@@ -122,7 +99,7 @@
         "columns_desktop": 3,
         "color_scheme": "",
         "show_view_all": false,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -130,9 +107,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Nuestros Productos",
         "heading_size": "h1",
@@ -140,12 +115,12 @@
         "show_description": false,
         "description_style": "body",
         "collection": "all",
-        "products_to_show":15,
-        "columns_desktop": 5,
+        "products_to_show": 8,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
