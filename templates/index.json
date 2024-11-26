@@ -325,12 +325,13 @@
           "type": "heading",
           "settings": {
             "heading": "12H TECH",
-            "heading2": "La cuenta regresiva para la innovación.",
+            "heading2": "¡Aquí SÍ vas a encontrar lo mejor en!",
             "heading_size": "h1"
           }
         },
         "text_GeCFcH": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "12H TECH, somos una empresa dedicada a la comercialización y exportación de periféricos especializados de computadora en América Latina.",
             "text_style": "subtitle"
@@ -360,6 +361,43 @@
         "@media only screen and (max-width: 768px) {h2 {margin-top: 40px; margin-bottom: 0px; }}"
       ],
       "settings": {
+        "image": "shopify://shop_images/Contrapropuesta_banners.png",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "image_banner_XYQdMb": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_CXRnmU": {
+          "type": "heading",
+          "settings": {
+            "heading": "12H TECH",
+            "heading2": "La cuenta regresiva para la innovación.",
+            "heading_size": "h1"
+          }
+        },
+        "text_dX3AGJ": {
+          "type": "text",
+          "settings": {
+            "text": "12H TECH, somos una empresa dedicada a la comercialización y exportación de periféricos especializados de computadora en América Latina.",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CXRnmU",
+        "text_dX3AGJ"
+      ],
+      "settings": {
         "image": "shopify://shop_images/main_menu2.png",
         "image_overlay_opacity": 10,
         "image_height": "medium",
@@ -378,10 +416,11 @@
     "image_banner_X7nQxR",
     "slideshow_kkEazp",
     "featured_collection_9jYXDg",
-    "collection_list_7c7cTa",
+    "image_banner",
     "image_with_text_dJepwA",
+    "collection_list_7c7cTa",
     "image_with_text_D9rMhc",
     "featured_collection",
-    "image_banner"
+    "image_banner_XYQdMb"
   ]
 }
