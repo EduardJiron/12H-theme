@@ -9,6 +9,98 @@
  */
 {
   "sections": {
+    "slideshow_kkEazp": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_TmRDPF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1_d05751ec-1ee1-49ec-ae7c-0432f44889e8.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_t4xE4X": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/2_f8b6430a-a73b-4198-aa73-c23fc1671580.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_eBLpV7": {
+          "type": "slide",
+          "settings": {
+            "heading": "Diapositiva de imagen",
+            "heading_size": "h1",
+            "subheading": "Cuenta la historia de tu marca a través de imágenes",
+            "button_label": "Etiqueta de botón",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_VCCj9p": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/3_5fb00f90-fb5d-435f-8257-5180b0fdb6f2.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_TmRDPF",
+        "slide_t4xE4X",
+        "slide_eBLpV7",
+        "slide_VCCj9p"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Presentación de diapositivas sobre tu marca"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -47,6 +139,7 @@
         "text_GeCFcH",
         "button"
       ],
+      "disabled": true,
       "custom_css": [
         "@media only screen and (max-width: 768px) {h2 {margin-top: 40px; margin-bottom: 0px; }}"
       ],
@@ -172,9 +265,9 @@
         "button_6mcwfF": {
           "type": "button",
           "settings": {
-            "button_label": "¡COMPRÁ AHORA!",
-            "button_link": "shopify://products/teclado-mecanico-inalambrico-attack-shark-m87pro",
-            "button_style_secondary": true
+            "button_label": "Etiqueta de botón",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
@@ -230,6 +323,7 @@
     }
   },
   "order": [
+    "slideshow_kkEazp",
     "image_banner",
     "collection_list_7c7cTa",
     "image_with_text_dJepwA",
