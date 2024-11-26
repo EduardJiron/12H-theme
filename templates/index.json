@@ -78,10 +78,10 @@
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
-        "slider_visual": "numbers",
+        "slider_visual": "dots",
         "auto_rotate": true,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
+        "change_slides_speed": 3,
+        "image_behavior": "ambient",
         "show_text_below": false,
         "accessibility_info": "Presentación de diapositivas sobre tu marca"
       }
