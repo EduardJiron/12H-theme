@@ -147,177 +147,6 @@
         "padding_bottom": 36
       }
     },
-    "collection_list_7c7cTa": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_NCqMfj": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "mouses"
-          }
-        },
-        "featured_collection_CYXR3P": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "headsets"
-          }
-        },
-        "featured_collection_3Px6Mq": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "teclados"
-          }
-        },
-        "featured_collection_VWJcRY": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "microfonos"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_NCqMfj",
-        "featured_collection_CYXR3P",
-        "featured_collection_3Px6Mq",
-        "featured_collection_VWJcRY"
-      ],
-      "custom_css": [],
-      "settings": {
-        "title": "Nuestras colecciones",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_dJepwA": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_zCWPhX": {
-          "type": "heading",
-          "settings": {
-            "heading": "ATTACK SHARK x AJAZZ AKP153",
-            "heading_size": "h1"
-          }
-        },
-        "text_Aig4rm": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Domina tu flujo de trabajo con el Streaming Deck AKP153</p>",
-            "text_style": "subtitle"
-          }
-        },
-        "button_awNTnN": {
-          "type": "button",
-          "settings": {
-            "button_label": "¡COMPRÁ AHORA!",
-            "button_link": "shopify://products/streaming-deck-ataque-tiburon-x-ajazz-akp153",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_zCWPhX",
-        "text_Aig4rm",
-        "button_awNTnN"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/sdckl.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "right",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_D9rMhc": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_KBnND9": {
-          "type": "heading",
-          "settings": {
-            "heading": "ATTACK SHARK M87PRO",
-            "heading_size": "h1"
-          }
-        },
-        "text_A6pdAr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>El teclado mecánico que lo tiene todo: ATTACK SHARK M87PRO</p>",
-            "text_style": "subtitle"
-          }
-        },
-        "button_6mcwfF": {
-          "type": "button",
-          "settings": {
-            "button_label": "Etiqueta de botón",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_KBnND9",
-        "text_A6pdAr",
-        "button_6mcwfF"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/tklkbr.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "custom_css": [],
-      "settings": {
-        "title": "Nuestros Productos",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -372,6 +201,177 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "image_with_text_dJepwA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zCWPhX": {
+          "type": "heading",
+          "settings": {
+            "heading": "ATTACK SHARK x AJAZZ AKP153",
+            "heading_size": "h1"
+          }
+        },
+        "text_Aig4rm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Domina tu flujo de trabajo con el Streaming Deck AKP153</p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_awNTnN": {
+          "type": "button",
+          "settings": {
+            "button_label": "¡COMPRÁ AHORA!",
+            "button_link": "shopify://products/streaming-deck-ataque-tiburon-x-ajazz-akp153",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_zCWPhX",
+        "text_Aig4rm",
+        "button_awNTnN"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/sdckl.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "right",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_7c7cTa": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_NCqMfj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mouses"
+          }
+        },
+        "featured_collection_CYXR3P": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "headsets"
+          }
+        },
+        "featured_collection_3Px6Mq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "teclados"
+          }
+        },
+        "featured_collection_VWJcRY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "microfonos"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_NCqMfj",
+        "featured_collection_CYXR3P",
+        "featured_collection_3Px6Mq",
+        "featured_collection_VWJcRY"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "Nuestras colecciones",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_D9rMhc": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KBnND9": {
+          "type": "heading",
+          "settings": {
+            "heading": "ATTACK SHARK M87PRO",
+            "heading_size": "h1"
+          }
+        },
+        "text_A6pdAr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>El teclado mecánico que lo tiene todo: ATTACK SHARK M87PRO</p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_6mcwfF": {
+          "type": "button",
+          "settings": {
+            "button_label": "¡COMPRÁ AHORA!",
+            "button_link": "shopify://products/attack-shark-x6-gaming-mouse",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_KBnND9",
+        "text_A6pdAr",
+        "button_6mcwfF"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/tklkbr.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "settings": {
+        "title": "Nuestros Productos",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
       }
     },
     "image_banner_XYQdMb": {
