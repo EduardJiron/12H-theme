@@ -421,7 +421,8 @@
       "#Banner-template--23676033892633__image_banner {margin-top: -106px; height: 540px;}",
       ".price-item.price-item--sale.price-item--last {color: black; font-style: initial;}",
       ".card-information {width: 100%; display: none;}",
-      ".card--card.card--media > .card__content {background-color: #ff00ff30;}"
+      ".card--card.card--media > .card__content {background-color: #ff00ff30;}",
+      ".slider-mobile-gutter.page-width {padding: 0;}"
     ]
   }
 }
