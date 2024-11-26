@@ -418,7 +418,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "#Banner-template--23676033892633__image_banner {margin-top: -106px; height: 540px;}"
+      "#Banner-template--23676033892633__image_banner {margin-top: -106px; height: 540px;}",
+      ".slider-mobile-gutter.page-width {padding: 0;}"
     ]
   }
 }
