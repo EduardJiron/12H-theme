@@ -128,8 +128,8 @@
         "show_description": false,
         "description_style": "body",
         "collection": "descuentos-1",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "products_to_show": 5,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
@@ -167,20 +167,27 @@
           "settings": {
             "collection": "teclados"
           }
+        },
+        "featured_collection_VWJcRY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "microfonos"
+          }
         }
       },
       "block_order": [
         "featured_collection_NCqMfj",
         "featured_collection_CYXR3P",
-        "featured_collection_3Px6Mq"
+        "featured_collection_3Px6Mq",
+        "featured_collection_VWJcRY"
       ],
       "custom_css": [],
       "settings": {
         "title": "Nuestras colecciones",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
