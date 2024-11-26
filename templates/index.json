@@ -38,7 +38,7 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "",
+            "link": "shopify://products/soni-on-ear",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -56,7 +56,7 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "",
+            "link": "shopify://products/terport-tr95",
             "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -71,6 +71,9 @@
         "slide_6Nm84Y",
         "slide_dMtCpB",
         "slide_pNPVfx"
+      ],
+      "custom_css": [
+        ".slideshow__controls.slideshow__controls--top.slider-buttons {opacity: 0; height: 1px;}"
       ],
       "settings": {
         "layout": "full_bleed",
