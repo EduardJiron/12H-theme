@@ -131,9 +131,9 @@
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -145,62 +145,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "12H TECH",
-            "heading2": "La cuenta regresiva para la innovación.",
-            "heading_size": "h1"
-          }
-        },
-        "text_GeCFcH": {
-          "type": "text",
-          "settings": {
-            "text": "12H TECH, somos una empresa dedicada a la comercialización y exportación de periféricos especializados de computadora en América Latina.",
-            "text_style": "subtitle"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Ratones",
-            "button_link_1": "shopify://collections/Mouse",
-            "button_style_secondary_1": true,
-            "button_label_2": "Audífonos",
-            "button_link_2": "shopify://collections/teclados",
-            "button_style_secondary_2": true,
-            "button_label_3": "Teclados",
-            "button_link_3": "shopify://blogs/noticias",
-            "button_style_secondary_3": true
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text_GeCFcH",
-        "button"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "@media only screen and (max-width: 768px) {h2 {margin-top: 40px; margin-bottom: 0px; }}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/main_menu2.png",
-        "image_overlay_opacity": 10,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
       }
     },
     "collection_list_7c7cTa": {
@@ -351,7 +295,7 @@
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "color_scheme": "scheme-1",
@@ -366,16 +310,71 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "12H TECH",
+            "heading2": "La cuenta regresiva para la innovación.",
+            "heading_size": "h1"
+          }
+        },
+        "text_GeCFcH": {
+          "type": "text",
+          "settings": {
+            "text": "12H TECH, somos una empresa dedicada a la comercialización y exportación de periféricos especializados de computadora en América Latina.",
+            "text_style": "subtitle"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Ratones",
+            "button_link_1": "shopify://collections/Mouse",
+            "button_style_secondary_1": true,
+            "button_label_2": "Audífonos",
+            "button_link_2": "shopify://collections/teclados",
+            "button_style_secondary_2": true,
+            "button_label_3": "Teclados",
+            "button_link_3": "shopify://blogs/noticias",
+            "button_style_secondary_3": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text_GeCFcH",
+        "button"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 768px) {h2 {margin-top: 40px; margin-bottom: 0px; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/main_menu2.png",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
     }
   },
   "order": [
     "image_banner_X7nQxR",
     "slideshow_kkEazp",
     "featured_collection_9jYXDg",
-    "image_banner",
     "collection_list_7c7cTa",
     "image_with_text_dJepwA",
     "image_with_text_D9rMhc",
-    "featured_collection"
+    "featured_collection",
+    "image_banner"
   ]
 }
