@@ -63,7 +63,6 @@
         },
         "slide_pNPVfx": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Produicto_estrella_2.0.png",
             "heading": "",
