@@ -72,9 +72,7 @@
         "slide_dMtCpB",
         "slide_pNPVfx"
       ],
-      "custom_css": [
-        ".slideshow__controls.slideshow__controls--top.slider-buttons {opacity: 0; height: 1px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
