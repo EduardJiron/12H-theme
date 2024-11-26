@@ -190,7 +190,7 @@
         "@media only screen and (max-width: 768px) {h2 {margin-top: 40px; margin-bottom: 0px; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Contrapropuesta_banners.png",
+        "image": "shopify://shop_images/Contrapropuesta_banners_1.png",
         "image_overlay_opacity": 10,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
