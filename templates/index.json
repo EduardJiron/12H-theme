@@ -27,6 +27,7 @@
       "blocks": {
         "slide_6Nm84Y": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/bannerprincipal-transformed.png",
             "heading": "",
