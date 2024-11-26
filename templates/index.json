@@ -172,9 +172,9 @@
         "button_6mcwfF": {
           "type": "button",
           "settings": {
-            "button_label": "Etiqueta de botón",
-            "button_link": "",
-            "button_style_secondary": false
+            "button_label": "¡COMPRÁ AHORA!",
+            "button_link": "shopify://products/teclado-mecanico-inalambrico-attack-shark-m87pro",
+            "button_style_secondary": true
           }
         }
       },
