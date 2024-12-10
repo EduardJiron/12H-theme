@@ -424,7 +424,9 @@
       ".card--card.card--media > .card__content {background-color: #ff00ff30;}",
       ".slider-mobile-gutter.page-width {padding: 0;}",
       ".slideshow__controls.slideshow__controls--top.slider-buttons {border: none;}",
+      ".slider-button .icon {height: .6rem; color:white;}",
       ".slideshow__control-wrapper {display: none;}",
+      ".slideshow__controls.slideshow__controls--top.slider-buttons {margin-top: -44px;}",
       ".slideshow__autoplay.slider-button {display: none;}",
       "/* Responsive */@media (max-width: 1024px) {.header__heading-logo-wrapper {display: none; }}"
     ]
