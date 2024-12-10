@@ -423,7 +423,9 @@
       ".card-information {width: 100%; display: none;}",
       ".card--card.card--media > .card__content {background-color: #ff00ff30;}",
       ".slider-mobile-gutter.page-width {padding: 0;}",
-      "/* Responsive */@media (max-width: 1024px) {.header__heading-logo-wrapper {display: none;}}"
+      ".slideshow__controls.slideshow__controls--top.slider-buttons {margin-left: auto; border: none; width: 92px; height: 53px;}",
+      ".slideshow__control-wrapper {display:none;}",
+      "/* Responsive */@media (max-width: 1024px) {.header__heading-logo-wrapper {display: none; }}"
     ]
   }
 }
