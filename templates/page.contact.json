@@ -37,107 +37,68 @@
         "show_text_below": true
       }
     },
-    "image_with_text_rnGdbz": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_mDVUQn": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>NOSOTROS SOMOS  </strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_xWGN93": {
-          "type": "text",
-          "settings": {
-            "text": "<p>En 12H TECH, somos un equipo apasionado por la tecnología.Nos dedicamos a ofrecer periféricos de computadora de altacalidad, diseñados para satisfacer las necesidades de profesionales y entusiastas de la tecnología en toda América Latina. </p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_mDVUQn",
-        "text_xWGN93"
-      ],
+    "contact_form_9RDUbM": {
+      "type": "contact-form",
       "settings": {
-        "image": "shopify://shop_images/model.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-2",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "heading": "Formulario de contacto",
+        "heading_size": "h1",
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "multirow_jFXKTB": {
-      "type": "multirow",
+    "custom_liquid_d4pnwF": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<link rel=\"stylesheet\" type=\"text/css\" href=\"//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\"/>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css\"/>\n\n<div class=\"testimonials-section\">\n  <h2>Testimonios</h2>\n  <div class=\"testimonials-slider\">\n    <div class=\"testimonial\">\n      <p class=\"testimonial-text\">\"Los periféricos que ofrecen son simplemente excepcionales. Adquirí un teclado mecánico de una marca que jamás había encontrado en mi país, y la calidad es impresionante. ¡El envío fue rápido y seguro!\"</p>\n      <p class=\"testimonial-author\">Octavio Guevara<br><span>CEO OG-Proyects</span></p>\n    </div>\n    <div class=\"testimonial\">\n      <p class=\"testimonial-text\">\"Siempre busco productos únicos para mi setup, y este sitio es un tesoro. Compré unos audífonos de gama alta que superaron todas mis expectativas. Excelente servicio al cliente, atentos y profesionales.\"</p>\n      <p class=\"testimonial-author\">Jan Prado<br><span>Toyota CEO</span></p>\n    </div>\n    <div class=\"testimonial\">\n      <p class=\"testimonial-text\">\"Un lugar increíble para encontrar marcas exclusivas. Pedí un mouse para gaming que no podía conseguir en ninguna tienda local, y llegó en perfecto estado. Definitivamente los recomiendo.\"</p>\n      <p class=\"testimonial-author\">Henry Reyes<br><span>CEO Fast</span></p>\n    </div>\n  </div>\n</div>\n\n<script src=\"//cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js\"></script>\n<script src=\"//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js\"></script>\n<script>\n  $(document).ready(function(){\n    $('.testimonials-slider').slick({\n      dots: true,\n      infinite: true,\n      speed: 500,\n      slidesToShow: 3,\n      slidesToScroll: 1,\n      responsive: [\n        {\n          breakpoint: 1024,\n          settings: {\n            slidesToShow: 2,\n            slidesToScroll: 1,\n            infinite: true,\n            dots: true\n          }\n        },\n        {\n          breakpoint: 600,\n          settings: {\n            slidesToShow: 1,\n            slidesToScroll: 1\n          }\n        }\n      ]\n    });\n  });\n</script>\n\n<style>\n.testimonials-section {\n  width: 100%;\n  padding: 15px;\n  text-align: center;\n}\n\n.testimonials-slider {\n  display: flex;\n  justify-content: center;\n}\n\n.testimonial {\n  background: #fff;\n  border: 1px solid #ddd;\n  border-radius: 5px;\n  padding: 20px;\n  margin: 10px;\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\n  text-align: left;\n}\n\n.testimonial-text {\n  font-size: 16px;\n  line-height: 1.5;\n  color: #333;\n  margin-bottom: 10px;\n}\n\n.testimonial-author {\n  font-weight: bold;\n  font-size: 14px;\n  color: #555;\n}\n\n.testimonial-author span {\n  display: block;\n  font-weight: normal;\n  font-size: 12px;\n  color: #777;\n}\n</style>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_eBdpP4": {
+      "type": "image-banner",
       "blocks": {
-        "row_tVB9Lt": {
-          "type": "row",
+        "heading_tdmNpc": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/Group_1.svg",
-            "caption": "",
-            "heading": "<strong>500.00+</strong>",
-            "text": "<p>Clientes satisfechos.</p>",
-            "button_label": "",
-            "button_link": ""
+            "heading": "¿12H TECH?",
+            "heading2": "",
+            "heading_size": "h0"
           }
         },
-        "row_y6eXDB": {
-          "type": "row",
+        "text_JmDpyp": {
+          "type": "text",
           "settings": {
-            "image": "shopify://shop_images/gis_search-country.svg",
-            "caption": "",
-            "heading": "<strong>5 Países+ </strong>",
-            "text": "<p>Proyectos realizados en más de 5 países</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_nYgKpj": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/lineicons_customer.svg",
-            "caption": "",
-            "heading": "<strong>99%</strong>",
-            "text": "<p> Satisfacción en nuestros servicios</p>",
-            "button_label": "",
-            "button_link": ""
+            "text": "Somos una empresa que se dedica a comercializar y exportar periféricos especializados para computadoras en América Latina. La empresa se enfoca en ofrecer productos exclusivos y de alta calidad que satisfacen las demandas de profesionales y entusiastas de la tecnología. Nuestro compromiso con la innovación y la personalización es esencial para mejorar la experiencia del usuario y fomentar el crecimiento tecnológico en la región.",
+            "text_style": "subtitle"
           }
         }
       },
       "block_order": [
-        "row_tVB9Lt",
-        "row_y6eXDB",
-        "row_nYgKpj"
+        "heading_tdmNpc",
+        "text_JmDpyp"
       ],
       "settings": {
-        "image_height": "small",
-        "desktop_image_width": "small",
-        "heading_size": "h0",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
+        "image": "shopify://shop_images/Contrapropuesta_banners_1.png",
+        "image_overlay_opacity": 50,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "scheme-2",
-        "row_color_scheme": "scheme-2",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
   "order": [
     "main",
     "image_banner_HK4myi",
-    "image_with_text_rnGdbz",
-    "multirow_jFXKTB"
+    "contact_form_9RDUbM",
+    "custom_liquid_d4pnwF",
+    "image_banner_eBdpP4"
   ]
 }
