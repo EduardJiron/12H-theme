@@ -422,7 +422,8 @@
       ".price-item.price-item--sale.price-item--last {color: black; font-style: initial;}",
       ".card-information {width: 100%; display: none;}",
       ".card--card.card--media > .card__content {background-color: #ff00ff30;}",
-      ".slider-mobile-gutter.page-width {padding: 0;}"
+      ".slider-mobile-gutter.page-width {padding: 0;}",
+      "/* Responsive */@media (max-width: 1024px) {.header__heading-logo-wrapper {display: none;}}"
     ]
   }
 }
