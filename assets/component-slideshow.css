@@ -209,7 +209,7 @@ slideshow-component .slideshow.banner {
   position: absolute;
   width: 15px;
   height: 15px;
-  animation: caer2 10s linear infinite, mover2 4s ease-in-out infinite;
+  animation: caer2 10s linear infinite, mover2 7s ease-in-out infinite;
   opacity: 0.8;
   margin: 500px; 
 }
