@@ -429,7 +429,7 @@
       ".slideshow__control-wrapper {display: none;}",
       ".slideshow__controls.slideshow__controls--top.slider-buttons {margin-top: -44px; height: 50px;}",
       ".slideshow__autoplay.slider-button {display: none;}",
-      " /* Responsive */@media (max-width: 1024px) {.header__heading-logo-wrapper {display: none; } .slideshow__media.banner__media.media {border-top: 40px solid black; } .section-header.transparent {background: #8C3A76; }}"
+      " /* Responsive */@media (max-width: 1024px) {.header__heading-logo-wrapper {display: none; } .slideshow__media.banner__media.media {border-top: 40px solid black; } .section-header.transparent {background: #8c3a76; margin-top: -20px; } .header{margin-top: 24px; }}"
     ]
   }
 }
