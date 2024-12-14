@@ -105,12 +105,16 @@
     data-autoplay="{{ section.settings.auto_rotate }}"
     data-speed="{{ section.settings.change_slides_speed }}"
   >
-    {%- for block in section.blocks -%}
+   
+ 
+
+     {%- for block in section.blocks -%}
       <style>
         #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
           opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
         }
       </style>
+      
       <div
         class="slideshow__slide grid__item grid--1-col slider__slide"
         id="Slide-{{ section.id }}-{{ forloop.index }}"
@@ -120,44 +124,66 @@
         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
         tabindex="-1"
       >
-        <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
-          {%- if block.settings.image -%}
-            {%- liquid
-              assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
-              if section.settings.image_behavior == 'ambient'
-                assign sizes = '120vw'
-                assign widths = '450, 660, 900, 1320, 1800, 2136, 2400, 3600, 7680'
-              else
-                assign sizes = '100vw'
-                assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
-              endif
-              assign fetch_priority = 'auto'
-              if section.index == 1
-                assign fetch_priority = 'high'
-              endif
-            -%}
-            {%- if forloop.first %}
-              {{
-                block.settings.image
-                | image_url: width: 3840
-                | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
-              }}
-            {%- else -%}
-              {{
-                block.settings.image
-                | image_url: width: 3840
-                | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
-              }}
-            {%- endif -%}
-          {%- else -%}
-            {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
-            {%- if placeholder_slide == 1 -%}
-              {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
-            {%- else -%}
-              {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
-            {%- endif -%}
-          {%- endif -%}
-        </div>
+    
+      <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
+  
+
+  {%- if block.settings.image -%}
+    {%- liquid
+      assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
+      if section.settings.image_behavior == 'ambient'
+        assign sizes = '120vw'
+        assign widths = '450, 660, 900, 1320, 1800, 2136, 2400, 3600, 7680'
+      else
+        assign sizes = '100vw'
+        assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+      endif
+      assign fetch_priority = 'auto'
+      if section.index == 1
+        assign fetch_priority = 'high'
+      endif
+    -%}
+    {%- if forloop.first %}
+      {{
+        block.settings.image
+        | image_url: width: 3840
+        | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
+      }}
+    {%- else -%}
+      {{
+        block.settings.image
+        | image_url: width: 3840
+        | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
+      }}
+    {%- endif %}
+  {%- else -%}
+    {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
+    {%- if placeholder_slide == 1 -%}
+      {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+    {%- else -%}
+      {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+    {%- endif -%}
+  {%- endif -%}
+ <div class="nieve led-border">
+    <img class="snowflake" src="https://drive.google.com/thumbnail?id=18mqvB-rpR_D3IwJgeEcHqgjc_rov2Dff" />
+    <img class="snowflake" src="https://drive.google.com/thumbnail?id=1pAhZYWzxnaJF5IYqEGDZr-3PXMZxEBSW" />
+    <img class="snowflake" src="https://drive.google.com/thumbnail?id=1v5v9yYt3J_T7zH0ayKC_Pgs8gYjhM0cL" />
+    <img class="snowflake" src="https://drive.google.com/thumbnail?id=1pOhSeic4em0FWJidI2Lqepz68K5LfiFE" />
+    <img class="snowflake" src="https://drive.google.com/thumbnail?id=1Jfc_p6Xotvibs87QjKp57wD43suGNY1o" />
+  </div>
+ 
+  <div class="nieve2 ">
+    <img class="snowflake2" src="https://drive.google.com/thumbnail?id=1sfXn51T7LpI-xNhCMS0LyTpc12dBwGC4" />
+    <img class="snowflake2" src="https://drive.google.com/thumbnail?id=16VDEwT-fvOGtc8d8dPWR41nRprxuzQF4" />
+    <img class="snowflake2" src="https://drive.google.com/thumbnail?id=1o5MZxkdp3ue_oRhbKXOObaoNZ6yK-bfn" />
+    <img class="snowflake2" src="https://drive.google.com/thumbnail?id=1j93IoXIZTyca1McZE8PMQYi9N8oUP0jf" />
+    <img class="snowflake2" src="https://drive.google.com/thumbnail?id=15aXSH9Cf9mdGb8B4x_cnVf9IH_iv5kb8" />
+   
+  </div>
+  
+</div>
+
+        
         <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
           <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
             {%- if block.settings.heading != blank -%}

@@ -12,6 +12,312 @@ slideshow-component .slideshow.banner {
   overflow-y: hidden;
 }
 
+
+.led-border {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  padding: 16px;
+  text-align: center;
+
+  overflow: hidden;
+  background: transparent;
+
+  /* Borde animado */
+  box-sizing: border-box;
+  
+  /* Colores dinámicos */
+  animation: pulse-border 3s ease-in-out infinite alternate;
+
+  /* Efecto de desenfoque */
+  box-shadow: inset 0 0 10px 5px rgba(255, 0, 0, 0.5),
+              inset 0 0 15px 7px rgba(0, 0, 255, 0.4),
+              inset 0 0 20px 10px rgba(0, 255, 255, 0.3);
+}
+
+@keyframes pulse-border {
+  0% {
+    box-shadow: inset 0 0 10px 5px rgba(255, 0, 0, 0.5),
+                inset 0 0 15px 7px rgba(0, 0, 255, 0.4),
+                inset 0 0 20px 10px rgba(0, 255, 255, 0.3);
+  }
+  20% {
+    box-shadow: inset 0 0 10px 5px rgba(255, 165, 0, 0.5),
+                inset 0 0 15px 7px rgba(0, 255, 0, 0.4),
+                inset 0 0 20px 10px rgba(255, 255, 0, 0.3);
+  }
+  40% {
+    box-shadow: inset 0 0 10px 5px rgba(0, 255, 0, 0.5),
+                inset 0 0 15px 7px rgba(255, 20, 147, 0.4),
+                inset 0 0 20px 10px rgba(0, 255, 255, 0.3);
+  }
+  60% {
+    box-shadow: inset 0 0 10px 5px rgba(0, 0, 255, 0.5),
+                inset 0 0 15px 7px rgba(255, 255, 255, 0.4),
+                inset 0 0 20px 10px rgba(255, 165, 0, 0.3);
+  }
+  80% {
+    box-shadow: inset 0 0 10px 5px rgba(255, 255, 0, 0.5),
+                inset 0 0 15px 7px rgba(0, 255, 255, 0.4),
+                inset 0 0 20px 10px rgba(255, 0, 255, 0.3);
+  }
+  100% {
+    box-shadow: inset 0 0 10px 5px rgba(255, 20, 147, 0.5),
+                inset 0 0 15px 7px rgba(0, 255, 0, 0.4),
+                inset 0 0 20px 10px rgba(0, 0, 255, 0.3);
+  }
+}
+
+
+/* Contenedor principal */
+
+.nieve {
+  position: absolute;
+  top: 0;
+  
+  left: -3px;
+  width: 50.2vw;
+  height: 143vh;
+  overflow: hidden;
+ 
+  margin-right: 369px;
+  z-index: 1;
+}
+/* Partículas de nieve */
+.snowflake {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 20px;
+  animation: caer 10s linear infinite, mover 4s ease-in-out infinite;
+  opacity: 0.8;
+  margin: 50px; 
+}
+
+/* Variación de tamaño */
+.snowflake:nth-child(1) {
+  width: 50px;
+  height: 50px;
+  margin: 50px;
+  animation-duration: 4s;
+}
+
+.snowflake:nth-child(2) {
+  width: 20px;
+  height: 20px;
+  margin: 50px; 
+  animation-duration: 6s;
+}
+
+.snowflake:nth-child(3) {
+  width: 20px;
+  height: 20px;
+  margin: 50px; 
+  animation-duration: 5.5s;
+}
+
+.snowflake:nth-child(4) {
+  width: 20px;
+  margin: 50px; 
+  height: 20px;
+  animation-duration: 4.2s;
+}
+
+.snowflake:nth-child(5) {
+  width: 10px;
+  margin: 50px;
+  height: 10px;
+  animation-duration: 5s;
+}
+
+.snowflake:nth-child(6) {
+  width: 20px;
+  margin: 50px; 
+  margin:30px;
+  height: 20px;
+  animation-duration: 5s;
+}
+
+.snowflake:nth-child(7) {
+  width: 20px;
+  height: 20px;
+  margin: 50px;
+  animation-duration: 5s;
+}
+.snowflake:nth-child(8) {
+  width: 20px;
+  height: 20px;
+  margin: 50px; 
+  animation-duration: 5s;
+}
+.snowflake:nth-child(9) {
+  width: 20px;
+  height: 20px;
+  margin: 50px;
+  animation-duration: 5s;
+}
+.snowflake:nth-child(10) {
+  width: 20px;
+  height: 20px;
+  margin: 50px;
+  animation-duration: 5s;
+}
+.banner-custom{
+  background-color: red;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+/* Animación de caída */
+@keyframes caer {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+/* Movimiento horizontal aleatorio */
+@keyframes mover {
+  0% {
+    left: 0;
+    transform-origin: top;
+  }
+  50% {
+    left: 50%;
+    transform-origin: center;
+  }
+  100% {
+    left: 100%;
+    transform-origin: right;
+  }
+}
+.nieve2 {
+  position: absolute;
+  top: 0;
+  
+  left: -3px;
+  width: 50.2vw;
+  height: 143vh;
+  overflow: hidden;
+ 
+  margin-right: 369px;
+  z-index: 1;
+}
+/* Partículas de nieve */
+.snowflake2 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  animation: caer 10s linear infinite, mover 4s ease-in-out infinite;
+  opacity: 0.8;
+  margin: 50px; 
+}
+
+/* Variación de tamaño */
+.snowflake2:nth-child(1) {
+  width: 50px;
+  height: 50px;
+  margin: 100px; 
+  animation-duration: 4s;
+}
+
+.snowflake2:nth-child(2) {
+  width: 20px;
+  height: 20px;
+  margin: 50px; 
+  animation-duration: 6s;
+}
+
+.snowflake2:nth-child(3) {
+  width: 20px;
+  height: 20px;
+  margin: 50px; 
+  animation-duration: 5.5s;
+}
+
+.snowflake2:nth-child(4) {
+  width: 20px;
+  margin: 50px; 
+  height: 20px;
+  animation-duration: 4.2s;
+}
+
+.snowflake2:nth-child(5) {
+  width: 20px;
+  margin: 50px; 
+  height: 20px;
+  animation-duration: 5s;
+}
+
+.snowflake2:nth-child(6) {
+  width: 20px;
+  margin: 50px; 
+  margin:30px;
+  height: 20px;
+  animation-duration: 5s;
+}
+
+.snowflake2:nth-child(7) {
+  width: 20px;
+  height: 20px;
+  margin: 50px; 
+  animation-duration: 5s;
+}
+.snowflake2:nth-child(8) {
+  width: 20px;
+  height: 20px;
+  margin: 50px; 
+  animation-duration: 5s;
+}
+.snowflake2:nth-child(9) {
+  width: 20px;
+  height: 20px;
+  margin: 50px;  
+  animation-duration: 5s;
+}
+.snowflake2:nth-child(10) {
+  width: 20px;
+  height: 20px;
+  margin: 50px; 
+  animation-duration: 5s;
+}
+
+/* Animación de caída */
+@keyframes caer {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+/* Movimiento horizontal aleatorio */
+@keyframes mover {
+  0% {
+      left: 0;
+      transform-origin: top;
+  }
+  25% {
+      left: 25%;
+      transform-origin: top;
+  }
+  50% {
+      left: 50%;
+      transform-origin: center;
+  }
+  75% {
+      left: 75%;
+      transform-origin: bottom;
+  }
+  100% {
+      left: 100%;
+      transform-origin: right;
+  }
+}
 .slideshow__slide {
   padding: 0;
   position: relative;
