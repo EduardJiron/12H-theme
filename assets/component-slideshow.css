@@ -74,12 +74,11 @@ slideshow-component .slideshow.banner {
 .nieve {
   position: absolute;
   top: 0;
-  
   left: -3px;
   width: 50.2vw;
+  margin-bottom: 20px;
   height: 143vh;
   overflow: hidden;
- 
   margin-right: 369px;
   z-index: 1;
 }
@@ -196,13 +195,12 @@ slideshow-component .slideshow.banner {
 }
 .nieve2 {
   position: absolute;
-  top: 0;
-  
+  top: 20px;
   left: -3px;
   width: 50.2vw;
   height: 143vh;
   overflow: hidden;
- 
+
   margin-right: 369px;
   z-index: 1;
 }
@@ -211,9 +209,9 @@ slideshow-component .slideshow.banner {
   position: absolute;
   width: 15px;
   height: 15px;
-  animation: caer 10s linear infinite, mover 4s ease-in-out infinite;
+  animation: caer2 10s linear infinite, mover2 4s ease-in-out infinite;
   opacity: 0.8;
-  margin: 50px; 
+  margin: 500px; 
 }
 
 /* Variación de tamaño */
@@ -286,7 +284,7 @@ slideshow-component .slideshow.banner {
 }
 
 /* Animación de caída */
-@keyframes caer {
+@keyframes caer2 {
   0% {
     transform: translateY(0);
   }
@@ -295,8 +293,8 @@ slideshow-component .slideshow.banner {
   }
 }
 
-/* Movimiento horizontal aleatorio */
-@keyframes mover {
+
+@keyframes mover2 {
   0% {
       left: 0;
       transform-origin: top;
