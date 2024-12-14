@@ -420,15 +420,16 @@
     "custom_css": [
       "#Banner-template--23676033892633__image_banner {margin-top: -106px; height: 540px;}",
       ".price-item.price-item--sale.price-item--last {color: black; font-style: initial;}",
+      ".slider-mobile-gutter.page-width {margin-top: -56px;}",
       ".card-information {width: 100%; display: none;}",
       ".card--card.card--media > .card__content {background-color: #ff00ff30;}",
       ".slider-mobile-gutter.page-width {padding: 0;}",
       ".slideshow__controls.slideshow__controls--top.slider-buttons {border: none;}",
-      ".slider-button .icon {height: 5rem; color: #B666D9;}",
+      ".slider-button .icon {height: 5rem; color: #b666d9;}",
       ".slideshow__control-wrapper {display: none;}",
       ".slideshow__controls.slideshow__controls--top.slider-buttons {margin-top: -44px; height: 50px;}",
       ".slideshow__autoplay.slider-button {display: none;}",
-      "/* Responsive */@media (max-width: 1024px) {.header__heading-logo-wrapper {display: none; }}"
+      " /* Responsive */@media (max-width: 1024px) {.header__heading-logo-wrapper {display: none; }}"
     ]
   }
 }
